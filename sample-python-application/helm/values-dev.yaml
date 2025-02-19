@@ -1,5 +1,4 @@
-image:
-  tag: dev-1b79bbc2
+image: docker.io/dcpilla/sample-python-application:latest
 
 env:
   COLOR: YELLOW
