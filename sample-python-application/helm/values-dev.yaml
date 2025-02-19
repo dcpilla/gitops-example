@@ -1,4 +1,4 @@
-image: docker.io/dcpilla/sample-python-application:latest
+image: dcpilla:fbf5d1fdocker.io/dcpilla/sample-python-application:latest
 
 env:
   COLOR: YELLOW
