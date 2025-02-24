@@ -308,13 +308,13 @@ virtualService:
 
 # additionalVirtualServices -- Istio Virtual Service configuration
 additionalVirtualServices: []
-#   - host: app1.business-uat.br.experian.eeca
+#   - host: app1.business-uat.br.dcpilla.eeca
 #     destination:
 #       port: 8080
 #     match:
 #       - uri:
 #           exact: /productpage
-#   - host: app2.business-uat.br.experian.eeca
+#   - host: app2.business-uat.br.dcpilla.eeca
 #     destination:
 #       port: 9090
 #     match:
@@ -343,6 +343,6 @@ authorizationPolicy:
 requestAuthentication:
   enabled: false
   # jwt:
-  #   issuer: "http://experian-dp-iam-authorization-server-service.digital-identity-services-uat.svc"
-  #   jwks: "https://experian-dp-iam-authorization-server.uat-digital.br.experian.eeca/oauth2/jwks"
+  #   issuer: "http://dcpilla-dp-iam-authorization-server-service.digital-identity-services-uat.svc"
+  #   jwks: "https://dcpilla-dp-iam-authorization-server.uat-digital.br.dcpilla.eeca/oauth2/jwks"
   #   payloadToHeader: "X-JWT-PAYLOAD"

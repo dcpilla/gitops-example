@@ -5,13 +5,13 @@ package main
 
 ## Validate Label GEARR
 
-#warn["K8S-TAG-010 Label GEARRID inexistente (https://pages.experian.local/display/MEAB/GEARR)"] {
+#warn["K8S-TAG-010 Label GEARRID inexistente (https://pages.dcpilla.local/display/MEAB/GEARR)"] {
 #        startswith(input.kind, "Deployment")
 #        gearr := input.spec.template.metadata.labels.gearrid
 #        gearr == ""
 #}
 
-#warn["K8S-TAG-010 Label GEARRID inexistente (https://pages.experian.local/display/MEAB/GEARR)"] {
+#warn["K8S-TAG-010 Label GEARRID inexistente (https://pages.dcpilla.local/display/MEAB/GEARR)"] {
 #        startswith(input.kind, "Deployment")
 #        gearr := input.spec.template.metadata.labels.gearrid
 #        gearr <= 0
